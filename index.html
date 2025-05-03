@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>MendFlow Team</title>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div class="logo">
+					<img
+						src="images/Снимок экрана 2025-04-28 в 23.38.07.png"
+						alt="MendFlow Team"
+					/>
+				</div>
+				<nav id="navMenu">
+					<ul class="menu">
+						<li><a href="index.html">Главная</a></li>
+						<li><a href="services.html">Услуги</a></li>
+						<li><a href="about.html">О нас</a></li>
+						<li><a href="contact.html">Контакты</a></li>
+					</ul>
+				</nav>
+				<div class="burger-menu" id="burgerMenu">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+		</header>
+
+		<main>
+			<section class="hero">
+				<div class="hero-image">
+					<img
+						src="images/annie-spratt-QckxruozjRg-unsplash.jpg"
+						alt="Hero Image"
+					/>
+				</div>
+				<div class="hero-content">
+					<h1>Развивайте свой бизнес с MendFlow Team</h1>
+					<p>
+						Мы создаем современные сайты и эффективные рекламные стратегии.
+						Доверьтесь нам, чтобы улучшить ваше присутствие в интернете и
+						достичь новых высот.
+					</p>
+					<div class="hero-buttons">
+						<!-- Кнопка "Начать" -->
+						<button class="contact-btn" id="openModal">Начать</button>
+
+						<!-- Модальное окно -->
+						<div class="modal" id="contactModal">
+							<div class="modal-content">
+								<span class="close" id="closeModal">&times;</span>
+								<h3>Получить консультацию</h3>
+								<form id="feedbackForm">
+									<input
+										type="text"
+										name="name"
+										placeholder="Ваше имя"
+										required
+									/>
+									<input
+										type="tel"
+										name="phone"
+										placeholder="Ваш номер телефона"
+										required
+									/>
+									<button type="submit">Отправить</button>
+								</form>
+							</div>
+						</div>
+						<a href="about.html" class="btn secondary-btn">Узнать больше</a>
+					</div>
+				</div>
+			</section>
+
+			<section id="services" class="services">
+				<h2>Наши Услуги</h2>
+				<p>Поднимите ваш бизнес на новый уровень с MendFlow.</p>
+				<div class="services-cards">
+					<div class="service-card">
+						<img src="images/servises_1.jpeg" alt="Запуск бизнеса с нуля" />
+						<h3>Запуск бизнеса с нуля</h3>
+						<p>Полное сопровождение и настройка всех необходимых процессов.</p>
+					</div>
+					<div class="service-card">
+						<img src="images/servises_2.png" alt="Создание лендингов" />
+						<h3>Создание лендингов</h3>
+						<p>
+							Эффективные лендинги под ключ с учетом всех современных тенденций.
+						</p>
+					</div>
+					<div class="service-card">
+						<img
+							src="images/servises_3.jpeg"
+							alt="Настройка Google ADS и Facebook ADS"
+						/>
+						<h3>Настройка Google ADS и Facebook ADS</h3>
+						<p>
+							Максимальная отдача вашего маркетинга с профессиональной
+							настройкой.
+						</p>
+					</div>
+					<div class="service-card">
+						<img src="images/servises_4.jpeg" alt="Внедрение CRM-систем" />
+						<h3>Внедрение CRM-систем</h3>
+						<p>
+							Автоматизация процессов для более эффективного управления
+							клиентами.
+						</p>
+					</div>
+					<div class="service-card">
+						<img src="images/servises_5.jpeg" alt="Управление продажами" />
+						<h3>Управление продажами</h3>
+						<p>Использование последних технологий AI для оптимизации продаж.</p>
+					</div>
+					<div class="service-card">
+						<img src="images/servises_6.jpeg" alt="Продвижение в соцсетях" />
+						<h3>Продвижение в соцсетях</h3>
+						<p>
+							Instagram, TikTok и другие платформы на профессиональном уровне.
+						</p>
+					</div>
+				</div>
+			</section>
+			<!-- Секция "О нас" -->
+			<section id="about" class="about">
+				<div class="about-card">
+					<h2>О нас</h2>
+					<p>
+						Мы — команда MendFlow, специализирующаяся на создании современных
+						решений для бизнеса. Наша цель — помочь вам достичь успеха. Мы
+						предлагаем индивидуальный подход к каждому клиенту, используя
+						передовые технологии и креативные идеи для достижения ваших целей.
+					</p>
+					<h3>Почему выбирают нас?</h3>
+					<p>
+						Мы гарантируем высокое качество, соблюдение сроков и полное
+						соответствие вашим ожиданиям. Сотрудничая с нами, вы получаете не
+						просто услугу, а партнера, который заинтересован в вашем успехе.
+					</p>
+				</div>
+			</section>
+
+			<!-- Секция "Контакты" -->
+			<section id="contact" class="contact">
+				<h2>Свяжитесь с нами</h2>
+				<p>
+					Мы всегда рады ответить на ваши вопросы и помочь вашему бизнесу расти!
+				</p>
+				<div class="contact-info">
+					<div class="contact-item">
+						<h3>Телефон и соцсети</h3>
+						<p><a href="tel:+71234567890">+7 (700) 260-12-05</a></p>
+						<div class="social-icons">
+							<a href="https://wa.me/+77002601205" target="_blank">
+								<img
+									src="https://img.icons8.com/fluency/48/000000/whatsapp.png"
+									alt="WhatsApp"
+								/>
+							</a>
+							<a href="https://t.me/@newcommmeer" target="_blank">
+								<img
+									src="https://img.icons8.com/fluency/48/000000/telegram-app.png"
+									alt="Telegram"
+								/>
+							</a>
+							<a href="https://instagram.com/mendflow" target="_blank">
+								<img
+									src="https://img.icons8.com/fluency/48/000000/instagram-new.png"
+									alt="Instagram"
+								/>
+							</a>
+							<a href="https://facebook.com/mendflow" target="_blank">
+								<img
+									src="https://img.icons8.com/fluency/48/000000/facebook-new.png"
+									alt="Facebook"
+								/>
+							</a>
+						</div>
+					</div>
+					<div class="contact-item">
+						<h3>Email</h3>
+						<p>
+							<a href="mailto:mendflowagency@gmail.com"
+								>mendflowagency@gmail.com</a
+							>
+						</p>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			<div class="footer-container">
+				<div class="footer-logo">
+					<img
+						src="images/Снимок экрана 2025-04-28 в 23.38.07.png"
+						alt="MendFlow Team"
+					/>
+					<p>&copy; 2025 MendFlow Team. Все права защищены.</p>
+				</div>
+				<div class="footer-links">
+					<h3>Компания</h3>
+					<ul>
+						<li><a href="about.html">О нас</a></li>
+						<li><a href="services.html">Услуги</a></li>
+						<li><a href="contact.html">Контакты</a></li>
+					</ul>
+				</div>
+				<div class="footer-subscribe">
+					<h3>Свяжитесь с нами</h3>
+					<form id="contactForm" action="#" method="post">
+						<input
+							type="tel"
+							name="phone"
+							placeholder="Ваш номер телефона"
+							required
+						/>
+						<button type="submit">Отправить</button>
+					</form>
+				</div>
+			</div>
+		</footer>
+		<script src="script.js"></script>
+	</body>
+</html>

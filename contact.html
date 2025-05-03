@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Контакты - MendFlow Team</title>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div class="logo">
+					<img
+						src="images/Снимок экрана 2025-04-28 в 23.38.07.png"
+						alt="MendFlow Team"
+					/>
+				</div>
+				<nav id="navMenu">
+					<ul class="menu">
+						<li><a href="index.html">Главная</a></li>
+						<li><a href="services.html">Услуги</a></li>
+						<li><a href="about.html">О нас</a></li>
+						<li><a href="contact.html">Контакты</a></li>
+					</ul>
+				</nav>
+				<div class="burger-menu" id="burgerMenu">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				ы
+			</div>
+		</header>
+
+		<main>
+			<section class="contact">
+				<h2>Свяжитесь с нами</h2>
+				<p>
+					Мы всегда рады ответить на ваши вопросы и помочь вашему бизнесу расти!
+				</p>
+				<div class="contact-info">
+					<div class="contact-item">
+						<h3>Телефон и соцсети</h3>
+						<p><a href="tel:+71234567890">+7 (700) 260-12-05</a></p>
+						<div class="social-icons">
+							<a href="https://wa.me/+77002601205" target="_blank">
+								<img
+									src="https://img.icons8.com/fluency/48/000000/whatsapp.png"
+									alt="WhatsApp"
+								/>
+							</a>
+							<a href="https://t.me/Avat1na" target="_blank">
+								<img
+									src="https://img.icons8.com/fluency/48/000000/telegram-app.png"
+									alt="Telegram"
+								/>
+							</a>
+							<a href="https://instagram.com/mendflow" target="_blank">
+								<img
+									src="https://img.icons8.com/fluency/48/000000/instagram-new.png"
+									alt="Instagram"
+								/>
+							</a>
+						</div>
+					</div>
+					<div class="contact-item">
+						<h3>Email</h3>
+						<p>
+							<a href="mailto:mendflowagency@gmail.com"
+								>mendflowagency@gmail.com</a
+							>
+						</p>
+					</div>
+				</div>
+
+				<div class="contact-form">
+					<h3>Напишите нам</h3>
+					<form id="feedbackForm" class="contact-page">
+						<input type="text" name="name" placeholder="Ваше имя" required />
+						<input
+							type="tel"
+							name="phone"
+							placeholder="Ваш номер телефона"
+							required
+						/>
+						<textarea
+							name="message"
+							placeholder="Ваше сообщение"
+							required
+						></textarea>
+						<button type="submit">Отправить</button>
+					</form>
+					<div id="formResponse" style="margin-top: 10px; color: green"></div>
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			<div class="footer-container">
+				<div class="footer-logo">
+					<img
+						src="images/Снимок экрана 2025-04-28 в 23.38.07.png"
+						alt="MendFlow Team"
+					/>
+					<p>&copy; 2025 MendFlow Team. Все права защищены.</p>
+				</div>
+				<div class="footer-links">
+					<h3>Компания</h3>
+					<ul>
+						<li><a href="about.html">О нас</a></li>
+						<li><a href="services.html">Услуги</a></li>
+						<li><a href="contact.html">Контакты</a></li>
+					</ul>
+				</div>
+				<div class="footer-subscribe">
+					<h3>Свяжитесь с нами</h3>
+					<form id="contactForm" action="#" method="post">
+						<input
+							type="tel"
+							name="phone"
+							placeholder="Ваш номер телефона"
+							required
+						/>
+						<button type="submit">Отправить</button>
+					</form>
+				</div>
+			</div>
+		</footer>
+	</body>
+	<script src="script.js"></script>
+</html>
